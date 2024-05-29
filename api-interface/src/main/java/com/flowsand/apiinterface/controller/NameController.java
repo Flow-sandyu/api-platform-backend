@@ -1,7 +1,7 @@
 package com.flowsand.apiinterface.controller;
 
-import com.flowsand.apiinterface.model.User;
-import com.flowsand.apiinterface.utils.SignUtils;
+import com.flowsand.apiclientsdk.model.User;
+import com.flowsand.apiclientsdk.utils.SignUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;

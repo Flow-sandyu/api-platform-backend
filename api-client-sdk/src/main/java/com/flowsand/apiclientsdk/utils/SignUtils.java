@@ -1,4 +1,4 @@
-package com.flowsand.apiinterface.utils;
+package com.flowsand.apiclientsdk.utils;
 
 import cn.hutool.crypto.digest.DigestAlgorithm;
 import cn.hutool.crypto.digest.Digester;

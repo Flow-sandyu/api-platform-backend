@@ -1,4 +1,4 @@
-package com.flowsand.apiinterface.model;
+package com.flowsand.apiclientsdk.model;
 
 import lombok.Data;
 

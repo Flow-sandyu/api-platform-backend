@@ -26,7 +26,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * 帖子接口
+ * API 信息接口
  *
  * @author flowsand
  */
