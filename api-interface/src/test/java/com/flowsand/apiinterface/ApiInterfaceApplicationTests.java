@@ -18,7 +18,7 @@ public class ApiInterfaceApplicationTests {
         String result2 = apiClient.getNameByPost("鱼皮");
         User user = new User();
         user.setUsername("flow");
-        String result3 = apiClient.getUserNameByPost(user);
+        String result3 = apiClient.getUsernameByPost(user);
         System.out.println(result1);
         System.out.println(result2);
         System.out.println(result3);

@@ -51,6 +51,16 @@ public class User implements Serializable {
     private String userPassword;
 
     /**
+     * 签名 accessKey
+     */
+    private String accessKey;
+
+    /**
+     * 签名 secretKey
+     */
+    private String secretKey;
+
+    /**
      * 创建时间
      */
     private Date createTime;
@@ -68,4 +78,5 @@ public class User implements Serializable {
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
+
 }

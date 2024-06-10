@@ -55,7 +55,7 @@ public class ApiClient {
     }
 
     // 使用POST方法向服务器发送User对象，并获取服务器返回的结果
-    public String getUserNameByPost(User user) {
+    public String getUsernameByPost(User user) {
         // 将User对象转换为JSON字符串
         String json = JSONUtil.toJsonStr(user);
         // 使用HttpRequest工具发起POST请求，并获取服务器的响应
